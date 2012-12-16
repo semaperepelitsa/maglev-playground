@@ -6,6 +6,10 @@ class Letter
   def initialize(char)
     @char = char
   end
+
+  def inspect
+    "'#{char}'"
+  end
 end
 
 }
