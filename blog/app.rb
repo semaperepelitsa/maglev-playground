@@ -1,6 +1,5 @@
 require 'sinatra'
 require "haml"
-require "blog"
 
 $blog = Maglev::PERSISTENT_ROOT[:blog]
 
