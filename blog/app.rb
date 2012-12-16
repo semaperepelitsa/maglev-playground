@@ -11,16 +11,3 @@ end
 get "/" do
   haml :index
 end
-
-__END__
-
-@@ layout
-%html
-  = yield
-
-@@ index
-.header Blog
-- $blog.posts.each do |post|
-  .post
-    %h1= post.title
-    %p= post.body
