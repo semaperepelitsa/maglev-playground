@@ -2,5 +2,7 @@
   %head
     %title Blog
   %body
-    .header Blog
+    .header
+      %a{ :href => "/" } Blog
+      %a{ :href => "/new" } New post
     = yield

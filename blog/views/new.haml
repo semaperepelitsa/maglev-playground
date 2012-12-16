@@ -1,0 +1,9 @@
+%h1 New post
+
+%form{ :action => "/", :method => "POST" }
+  .input
+    %input{ :name => "title", :size => 60 }
+  .input
+    %textarea{ :name => "body", :rows => 30, :cols => 45 }
+  .action
+    %input{ :type => "submit", :value => "Add" }
